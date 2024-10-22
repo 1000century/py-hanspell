@@ -45,12 +45,13 @@ def check(text):
         return Checked(result=False)
 
     payload = {
-        'passportKey': '17ae905ebf21e5daa804088deaf6e46946e40305',
-        'where':'nexearch',
-        '_':'1729580349154',
-        'color_blindness': '0',
-        'q': text
-    }
+            'passportKey': '17ae905ebf21e5daa804088deaf6e46946e40305',
+            'where': 'nexearch',
+            'color_blindness': 0,
+            '_': 1729580349154,
+            'q': text
+        }
+
 
     headers = {
         'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
